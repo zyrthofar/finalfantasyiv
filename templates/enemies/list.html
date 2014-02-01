@@ -1,0 +1,5 @@
+<ul>
+    <% _.each(enemies, function(e) { %>
+    <li><a href="#enemies/<%= e.get('id') %>"><%= e.get('name') %></a></li>
+    <% }); %>
+</ul>
