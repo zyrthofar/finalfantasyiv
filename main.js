@@ -8,6 +8,7 @@ require.config({
 
 });
 
+// This is a require.
 require([
     'app'
 ], function(App) {
