@@ -8,6 +8,7 @@ require.config({
 
 });
 
+// required
 require([
     'app'
 ], function(App) {
