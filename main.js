@@ -8,8 +8,10 @@ require.config({
 
 });
 
+// required
 require([
     'app'
 ], function(App) {
     App.initialize();
 });
+qwe
